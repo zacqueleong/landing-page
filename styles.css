@@ -1,0 +1,182 @@
+body {
+    font-family:'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* This will remove the margin space surrounding the body and the flex containers. */
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10% 0% 10%; /* Padding defined dynamically by percentage */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none; 
+    color: #E5E7EB;
+    font-size :18px;
+}
+
+.banner {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 5% 10% 5% 10%; /* Padding defined dynamically by percentage */
+}
+
+.banner-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.banner-content {
+    color: #E5E7EB;
+}
+
+.banner-image {
+    background: grey;
+    color: #E5E7EB;
+    width: 900px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 10% 5% 10%; /* Padding defined dynamically by percentage */
+}
+
+.section-1-header {
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.section-1-gallery {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-card {
+    width: 50%;
+    margin: 3%;
+}
+
+.thumbnail {
+    background: transparent;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+.subtext {
+    color: grey;
+    text-align: center;
+}
+
+button {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 50px;
+}
+
+.section-2 {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 15% 5% 15%; /* Padding defined dynamically by percentage */
+}
+
+.section-2-quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+    display:flex;
+    justify-content: right;
+}
+
+.section-3 {
+    display:flex;
+    justify-content: center;
+}
+
+.section-3-action {
+    background:#3882F6;
+    border-radius: 10px;
+    padding: 30px 150px 30px 150px;
+    margin : 50px;
+    gap: 20px;
+    display: flex;
+}
+
+.section-3-action-content {
+    color:#E5E7EB;
+}
+
+.action-title {
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.section-3-action-button {
+    display:flex;
+    align-items: center;
+    padding : 10px 20px 0 20px;
+}
+
+.footer {
+    background: #1F2937;
+    font-size: 14px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
